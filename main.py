@@ -1,3 +1,7 @@
+######################################################################
+# Integrantes do grupo: Tiago Ribeiro Chagas e Pedro Leonel Teixeira #
+######################################################################
+
 from pathlib import Path
 
 from historico import *
@@ -12,7 +16,7 @@ if __name__ == "__main__":
 
     while True:
         print("Menu:\n")
-        print("1 - Buscar Dispositivos e Mostrar Estado Atual")
+        print("1 - Buscar/Atualizar Dispositivos e Mostrar Estado Atual")
         print("2 - Mostrar Historico\n")
 
         opcao = int(input("Input: "))
@@ -31,7 +35,7 @@ if __name__ == "__main__":
         else:
             print("Input Invalido")
 
-        input("\n Pressione Enter para continuar...")
+        input("Pressione Enter para continuar...")
         print('\n' * 80)
 
 
